@@ -2,8 +2,5 @@
 
 - hosts: all
 
-  vars:
-    cloudhealth_api_key: "{{ cloudhealth_api_key }}"
-
   roles:
     - role: ansible-cloudhealth-collector
